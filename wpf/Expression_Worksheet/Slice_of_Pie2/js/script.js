@@ -17,4 +17,11 @@ var pizzaOrdered = 8;
 //calculates how many slices per person
 var slicesPerPerson = pizzaOrdered * pizzaSlices / partyPeople;
 
-slicePerPerson = parseFloat(slicesPerPerson).toFixed(0);
+
+// calculating Sparky's slices
+var sparkySlices =  (slicesPerPerson - 3) * 23;
+
+var sparkySlice = parseFloat(sparkySlices).toFixed(0);
+
+// output of sparky's calculated slices
+console.log("Sparky got " + sparkySlice + " slices of pizza.");
