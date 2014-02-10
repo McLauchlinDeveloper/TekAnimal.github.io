@@ -1,3 +1,6 @@
 /**
- * Created by bangalorn on 2/7/14.
+Corey McLauchlin
+Expressions_Industry
+script that calculates
  */
+
