@@ -21,3 +21,19 @@ var other = prompt("How much of the " + budget + " will be spent on other expens
 var foodPercent = food / budget * 100;
 // parse food percent and only keep 2 decimal places
 var foodPercentage = parseFloat(foodPercent).toFixed(2);
+// calculating rent percentage
+var rentPercent = rent / budget * 100;
+/// parse rent percent and keep 2 decimal places
+var rentPercentage = parseFloat(rentPercent).toFixed(2);
+// calculating rent percentage
+var otherPercent = other / budget * 100;
+// parse other percent and keep 2 decimal places
+var otherPercentage = parseFloat(otherPercent).toFixed(2);
+//
+if (food + rent + other > budget)
+{
+    console.log("Your expenses exceed your budget. ");
+}
+
+
+console.log("Based on the information you have given, out of your budget of " + budget + " , you will spend " + );
