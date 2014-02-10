@@ -29,11 +29,6 @@ var rentPercentage = parseFloat(rentPercent).toFixed(2);
 var otherPercent = other / budget * 100;
 // parse other percent and keep 2 decimal places
 var otherPercentage = parseFloat(otherPercent).toFixed(2);
-// letting user know they have overcalculated budget expenses
-if (food + rent + other > budget)
-{
-    console.log("Your expenses exceed your budget. ");
-}
 
 // displaying calculated result
-console.log("Based on the information you have given, out of your budget of " + budget + " a year: \n You will spend " + foodPercentage + " % on food. \n You will spend " + rentPercentage + " % on rent. \n And you will spend " + otherPercentage + " % on other various expenses.");
+console.log("Based on the information you have given, out of your budget of " + budget + " a year: \n You will spend " + foodPercentage + "% on food. \n You will spend " + rentPercentage + "% on rent. \n And you will spend " + otherPercentage + "% on other various expenses.");
