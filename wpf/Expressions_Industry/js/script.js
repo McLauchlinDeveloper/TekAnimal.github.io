@@ -17,27 +17,25 @@ var pixHeight = height * dpi;
 var pixelDens = pixWidth * pixHeight;
 // variable used to convert pixel density to size in MB
 var convertMb = 1024 * 1024;
-// calculating size in 24-bit RGB
+// calculating size for 24-bit RGB
 var rgb24 = (pixelDens * 3) / convertMb;
-// calculating size in 48-bit RGB
+// calculating size for 48-bit RGB
 var rgb48 = (pixelDens * 6) / convertMb;
-// calculating size in 32-bit CMYK
+// calculating size for 32-bit CMYK
 var cmyk = (pixelDens * 4) / convertMb;
-// calculating size in 16-bit GrayScale
+// calculating size for 16-bit GrayScale
 var grayScale16 = (pixelDens * 2) / convertMb;
-
+//calculating size for 8-bit GrayScale
 var grayScale8 = (pixWidth * pixHeight) / convertMb;
-
+// cleaning up float numbers for MB calculation 24-bit RGB
 var rgb24Res = rgb24.toFixed(3);
-
+// cleaning up float numbers for MB calculation 48-bit RGB
 var rgb48Res = rgb48.toFixed(3);
-
+// cleaning up float numbers for 32-bit CMYK
 var cmykRes = cmyk.toFixed(3);
-
+// cleaning up float numbers for 16-bit GrayScale
 var grayScale16Res = grayScale16.toFixed(3);
-
+// cleaning up float numbers for 8-bit GrayScale
 var grayScale8Res = grayScale8.toFixed(3);
-
-
-
+// displays memory cost in MB for each image format type
 console.log("The cost in memory for your image in 24-bit RGB (most common) is "+rgb24Res+"MB.\n OR:\n"+rgb48Res+"MB in 48-bit RGB.\n"+cmykRes+"MB in 32-bit CMYK.\n"+grayScale16Res+"MB in 16-bit GrayScale.\n"+grayScale8Res+"MB in 8-bit GrayScale.");
