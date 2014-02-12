@@ -24,6 +24,7 @@ var cmyk = pixWidth * pixHeight * 4;
 
 var grayScale16 = pixWidth * pixHeight * 2;
 
-var grayScale8 = pixWidth * pixHeight * 1;
+var grayScale8 = pixWidth * pixHeight;
 
-var lineArt = (pixWidth * pixHeight 
+var convertMb = 1024 * 1024;
+
