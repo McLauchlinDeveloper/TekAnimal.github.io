@@ -32,6 +32,12 @@ var rgb24Res = rgb24.toFixed(3);
 
 var rgb48Res = rgb48.toFixed(3);
 
-var cmyk = cmyk.toFixed(3);
+var cmykRes = cmyk.toFixed(3);
 
-console.log("The cost in memory for your image in 24-bit RGB (most common) is "+rgb24/convertMb+"MB. OR:\n"+rgb48/convertMb+"MB in 48-bit RGB.\n"+cmyk/convertMb+"MB in 32-bit CMYK.\n"+grayScale16/convertMb+"MB in 16-bit GrayScale.\n"+grayScale8/convertMb+"MB in 8-bit GrayScale.");
+var grayScale16Res = grayScale16.toFixed(3);
+
+var grayScale8Res = grayScale8.toFixed(3);
+
+
+
+console.log("The cost in memory for your image in 24-bit RGB (most common) is "+rgb24Res+"MB. OR:\n"+rgb48/convertMb+"MB in 48-bit RGB.\n"+cmyk/convertMb+"MB in 32-bit CMYK.\n"+grayScale16/convertMb+"MB in 16-bit GrayScale.\n"+grayScale8/convertMb+"MB in 8-bit GrayScale.");
