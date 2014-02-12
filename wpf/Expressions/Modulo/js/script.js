@@ -1,3 +1,3 @@
-var remainder = 212 % 2;
+var remainder = 211 % 2;
 
 console.log(remainder);
