@@ -28,4 +28,4 @@ var grayScale8 = pixWidth * pixHeight;
 
 var convertMb = 1024 * 1024;
 
-console.log("The cost in memory in  ");
+console.log("The cost in memory for your image in 24-bit RGB (most common) is "+rgb24/convertMb+"MB. OR:\n"+rgb48/convertMb+"MB in 48-bit RGB.\n"+cmyk/convertMb+"MB in 32-bit CMYK.\n"+grayScale16/convertMb+"MB in 16-bit GrayScale.\n"+grayScale8/convertMb+"MB in 8-bit GrayScale.");
