@@ -16,15 +16,16 @@ var pixHeight = height * dpi;
 
 var pixelDens = pixWidth * pixHeight;
 
-var rgb24 = pixWidth * pixHeight * 3;
+var rgb24 = pixelDens * 3;
 
-var rgb48 = pixWidth * pixHeight * 6;
+var rgb48 = pixelDens * 6;
 
-var cmyk = pixWidth * pixHeight * 4;
+var cmyk = pixelDens * 4;
 
-var grayScale16 = pixWidth * pixHeight * 2;
+var grayScale16 = pixelDens * 2;
 
 var grayScale8 = pixWidth * pixHeight;
 
 var convertMb = 1024 * 1024;
 
+console.log("The cost in memory in  ");
