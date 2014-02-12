@@ -3,27 +3,27 @@ Corey McLauchlin
 Expressions_Industry
 script that calculates memory cost of images
  */
-
+// gather dpi image data
 var dpi = prompt("What is the dpi of the image?");
-
+// gather width image data
 var width = prompt("What is the width of the image in inches?");
-
+// gather height image data
 var height = prompt("What is the height of the image in inches?");
-
+// converting width in inches to width in pixels
 var pixWidth = width * dpi;
-
+// converting height in inches to height in pixels
 var pixHeight = height * dpi;
-
+// establishing pixel density
 var pixelDens = pixWidth * pixHeight;
-
+// variable used to convert pixel density to size in MB
 var convertMb = 1024 * 1024;
-
+// calculating size in 24-bit RGB
 var rgb24 = (pixelDens * 3) / convertMb;
-
+// calculating size in 48-bit RGB
 var rgb48 = (pixelDens * 6) / convertMb;
-
+// calculating size in 32-bit CMYK
 var cmyk = (pixelDens * 4) / convertMb;
-
+// calculating size in 16-bit GrayScale
 var grayScale16 = (pixelDens * 2) / convertMb;
 
 var grayScale8 = (pixWidth * pixHeight) / convertMb;
