@@ -1,7 +1,7 @@
 // Expressions_Worksheet
 
 
-var totals[4] = [266, 350, 400, 198, 213];
+var totals = [266, 350, 400, 198, 213];
 
 var totalsAdd = totals[0]+totals[1]+totals[2]+totals[3]+totals[4];
 
