@@ -1,7 +1,7 @@
 // Expressions - Concatenating Strings
 
-var firstName = "Kermit";
-var lastName = "the Frog";
-var fullName = firstName + " " + lastName;
+var a = 6;
+var b = 7;
 
-console.log(fullName);
+var result = a+b;
+console.log(result)
