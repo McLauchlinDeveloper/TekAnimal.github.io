@@ -7,8 +7,10 @@ var discount = 15;
 
 var disPer = origPrice * discount / 100;
 
+var disPerc = (disPer - origPrice) * -1;
+
 var salesTax = origPrice * 9 / 100;
 
-var priceTax = disPer + salesTax;
+var priceFinal = (disPerc + salesTax);
 
-console.log("Your "+item+" was originally $"+origPrice+", but after a "+discount+"% discount, it is now $"+disPer+" without tax, and $"+priceTax+".");
+console.log("Your "+item+" was originally $"+origPrice+", but after a "+discount+"% discount, it is now $"+disPerc+" without tax, and $"+priceFinal+".");
