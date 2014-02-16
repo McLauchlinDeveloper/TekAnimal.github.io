@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62d45605-659c-4d04-8854-9c90265a3750" name="Default" comment="" />
-    <ignored path="Condition_with_Expression.iws" />
+    <list default="true" id="4d0be9f0-7e01-4488-ba79-272c35fb9666" name="Default" comment="" />
+    <ignored path="If_Else.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Condition_with_Expression" />
+    <favorites_list name="If_Else" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -44,7 +44,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="0" selection-end="347" vertical-scroll-proportion="0.13100436" vertical-offset="0" max-vertical-offset="285">
+            <state line="15" column="47" selection-start="409" selection-end="409" vertical-scroll-proportion="0.8515284" vertical-offset="30" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -66,8 +66,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="209" />
-    <option name="y" value="507" />
+    <option name="x" value="219" />
+    <option name="y" value="407" />
     <option name="width" value="922" />
     <option name="height" value="352" />
   </component>
@@ -97,32 +97,31 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Condition_with_Expression" />
+              <option name="myItemId" value="If_Else" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Condition_with_Expression" />
+              <option name="myItemId" value="If_Else" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Condition_with_Expression" />
+              <option name="myItemId" value="If_Else" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Condition_with_Expression" />
+              <option name="myItemId" value="If_Else" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Condition_with_Expression" />
+              <option name="myItemId" value="If_Else" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -132,11 +131,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Condition_with_Expression" />
+              <option name="myItemId" value="If_Else" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Condition_with_Expression" />
+              <option name="myItemId" value="If_Else" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -146,10 +145,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../If_Else" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -195,14 +195,14 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="62d45605-659c-4d04-8854-9c90265a3750" name="Default" comment="" />
-      <created>1392580829771</created>
-      <updated>1392580829771</updated>
+      <changelist id="4d0be9f0-7e01-4488-ba79-272c35fb9666" name="Default" comment="" />
+      <created>1392581304137</created>
+      <updated>1392581304137</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="209" y="507" width="922" height="352" extended-state="0" />
+    <frame x="219" y="407" width="922" height="352" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -257,7 +257,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="0" selection-end="347" vertical-scroll-proportion="0.13100436" vertical-offset="0" max-vertical-offset="285">
+        <state line="15" column="47" selection-start="409" selection-end="409" vertical-scroll-proportion="0.8515284" vertical-offset="30" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
