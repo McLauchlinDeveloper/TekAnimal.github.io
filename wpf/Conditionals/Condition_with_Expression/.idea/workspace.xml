@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0558518c-eaf8-4402-89e6-a2b42fffef2a" name="Default" comment="" />
-    <ignored path="Rational_Expressions.iws" />
+    <list default="true" id="62d45605-659c-4d04-8854-9c90265a3750" name="Default" comment="" />
+    <ignored path="Condition_with_Expression.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Rational_Expressions" />
+    <favorites_list name="Condition_with_Expression" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -44,10 +44,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="62" selection-end="62" vertical-scroll-proportion="0.13100436" vertical-offset="0" max-vertical-offset="229">
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
+            <state line="11" column="45" selection-start="344" selection-end="344" vertical-scroll-proportion="0.47598255" vertical-offset="56" max-vertical-offset="285">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,8 +66,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="229" />
-    <option name="y" value="487" />
+    <option name="x" value="209" />
+    <option name="y" value="507" />
     <option name="width" value="922" />
     <option name="height" value="352" />
   </component>
@@ -104,27 +102,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rational_Expressions" />
+              <option name="myItemId" value="Condition_with_Expression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rational_Expressions" />
+              <option name="myItemId" value="Condition_with_Expression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rational_Expressions" />
+              <option name="myItemId" value="Condition_with_Expression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rational_Expressions" />
+              <option name="myItemId" value="Condition_with_Expression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rational_Expressions" />
+              <option name="myItemId" value="Condition_with_Expression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -134,11 +132,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rational_Expressions" />
+              <option name="myItemId" value="Condition_with_Expression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rational_Expressions" />
+              <option name="myItemId" value="Condition_with_Expression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -151,7 +149,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Condition_with_Expression" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -197,14 +195,14 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0558518c-eaf8-4402-89e6-a2b42fffef2a" name="Default" comment="" />
-      <created>1392580225640</created>
-      <updated>1392580225640</updated>
+      <changelist id="62d45605-659c-4d04-8854-9c90265a3750" name="Default" comment="" />
+      <created>1392580829771</created>
+      <updated>1392580829771</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="229" y="487" width="922" height="352" extended-state="0" />
+    <frame x="209" y="507" width="922" height="352" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -259,10 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="62" selection-end="62" vertical-scroll-proportion="0.13100436" vertical-offset="0" max-vertical-offset="229">
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
+        <state line="11" column="45" selection-start="344" selection-end="344" vertical-scroll-proportion="0.47598255" vertical-offset="56" max-vertical-offset="285">
+          <folding />
         </state>
       </provider>
     </entry>
