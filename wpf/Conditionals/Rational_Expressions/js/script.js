@@ -2,11 +2,11 @@
  * Created by bangalorn on 2/16/14.
  */
 
-var kidHeight = 30;
-
+var kidHeight = 40;
+var minHeight = 48
 //if the child is old enough, print to the console "you can ride";
 //if the kid is over 48 inches in height
-if(kidHeight > 48){
+if(kidHeight > minHeight){
 
     console.log("You can ride the coaster!");
 }
