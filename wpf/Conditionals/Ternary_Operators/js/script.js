@@ -13,3 +13,4 @@ if(gpa > 2.0){
     console.log("GPA too low!");
 }*/
 
+(gpa > 2.0) ? console.log(“You can graduate”) : console.log(“Gpa is too low!”);
