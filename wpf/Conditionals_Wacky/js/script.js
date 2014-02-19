@@ -1,5 +1,7 @@
-/**
- * Created by bangalorn on 2/19/14.
+/*
+Corey McLauchlin
+Feb. 19, 2014
+
  */
 // calculates whether a specific jump is hard and high enough to clear the stairs
 //greeting
