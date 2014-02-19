@@ -7,4 +7,4 @@ console.log("Today we are going to calculate how easily you can get down a set o
 // prompt and assign info to variable
 var weight = prompt("How much do you weigh (enter number of lbs)");
 // makes sure the proper value was assigned
-(weight == "" || weight < 60) ? (console.log("You did not answer properly or will not make it down the stairs.")):(console.log("You weigh "+weight+"lbs. "));
+(weight == "" || weight < 60) ? (console.log("You will not make it down the stairs or did not answer properly.")):(console.log("You weight will make it down the stairs."));
