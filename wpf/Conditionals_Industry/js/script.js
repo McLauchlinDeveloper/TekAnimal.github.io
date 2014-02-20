@@ -12,10 +12,10 @@ if(money = ""){console.log("You do not have the money to have a site made for yo
 var siteType = prompt("What kind of site do you need? (Select 1-3)\n 1.  Business Site\n2.  Personal Blog\n3.  Social Media Site");
 
 
-if(siteType = 1 && money > 1000){
+if(siteType = 1 && money >= 1000){
     console.log("We would be happy to make a business site for you!");
-} else if(siteType = 2 && money > 250) {
+} else if(siteType = 2 && money >= 250) {
     console.log("We would love to make your personal blog for you!");
-} else if(siteType = 3 && money > 500) {
+} else if(siteType = 3 && money >= 500) {
     console.log("We will take pleasure in making your social media site!");
 } else {console.log("We unfortunately cannot help you make a site.");}
