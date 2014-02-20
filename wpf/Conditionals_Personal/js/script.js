@@ -1,3 +1,5 @@
-/**
- * Created by bangalorn on 2/20/14.
+/*
+Corey McLauchlin
+Feb. 20, 2014
+Conditionals_Personal
  */
