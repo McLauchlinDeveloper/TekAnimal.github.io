@@ -21,7 +21,7 @@ var accel = weightKg * 9.8;
 // outputing acceleration = force in gravity
 console.log("You will have a force of gravity (your acceleration) on you equal to "+accel+"N (Newtons).");
 // conditional estimating that the amount of acceleration and momentum should exceed a base amount to get you down the stairs
-if(distaMet+accel >= 1000){
+if(distaMet+accel >= 3000){
 
 console.log("You will make it down the stairs SAFELY.");
 }else{
