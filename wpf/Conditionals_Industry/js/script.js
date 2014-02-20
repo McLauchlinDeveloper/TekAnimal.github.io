@@ -7,7 +7,7 @@ calculates whether a client will be able to a have a site made
 // asks user how much money they have for site and stores it
 var money = prompt("How much money do you have to spend on your website?");
 
-if(money = ""){console.log("You will not have a site made for you");}
+if(money = ""){console.log("You do not have the money to have a site made for you");}
 
 var siteType = prompt("What kind of site do you need? (Select 1-3)\n 1.  Business Site\n2.  Personal Blog\n3.  Social Media Site");
 
