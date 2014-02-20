@@ -1,7 +1,7 @@
 /*
 Corey McLauchlin
 Feb. 19, 2014
-
+Conditionals_Wacky
  */
 // calculates whether a certain speed and weight will be enough to clear the stairs
 //greeting
@@ -22,8 +22,9 @@ var accel = weightKg * 9.8;
 console.log("You will have a force of gravity (your acceleration) on you equal to "+accel+"N (Newtons).");
 // conditional estimating that the amount of acceleration and momentum should exceed a base amount to get you down the stairs
 if(distaMet+accel >= 3000){
-
+// output if conditional is true
 console.log("You will make it down the stairs SAFELY.");
 }else{
-    console.log("If you try, you may get hurt.");
+    // statement if conditional is false
+    console.log("If you try, you may get hurt or not make it.");
 }
