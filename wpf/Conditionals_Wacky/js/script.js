@@ -12,5 +12,12 @@ var weight = prompt("How much do you weigh (enter number of lbs)");
 (weight == "" || weight < 60) ? (console.log("You will not make it down the stairs or did not answer properly.")):(console.log("Your weight will make it down the stairs."));
 // convert weight in lbs to weight in kg
 var weightKg = weight * 2.2;
+// gathering and storing information for distance
+var distance = prompt("What is the distance (in ft) between the starting point and point at which you jump down the stairs (runup)?");
+//converting feet to meters
+var distaMet = distance * .3048;
 
-var heightJmp = prompt("How high did you jump? ")
+var accel = weightKg * 9.8;
+console.log("You will have a force of gravity on you equal to "+accel+" N (Newtons)");
+
+console
