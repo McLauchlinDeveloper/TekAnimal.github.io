@@ -11,3 +11,6 @@ function calcArea(){
     console.log(area);
 }
 
+calcArea();
+calcArea();
+calcArea();
