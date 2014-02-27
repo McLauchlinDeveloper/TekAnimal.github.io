@@ -1,5 +1,7 @@
 // Basic Function
 
+var width = 5;
+
 function outptMsg(){
     console.log("Hello");
 }
@@ -12,5 +14,4 @@ function calcArea(){
 }
 
 calcArea();
-calcArea();
-calcArea();
+console.log(width);
