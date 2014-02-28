@@ -5,4 +5,4 @@
  calculates chances to get shiny pokemon
  */
 
-
+var 
