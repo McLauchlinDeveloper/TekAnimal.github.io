@@ -25,6 +25,8 @@ var machSpeed = velocity() / soundSPD;
     return(machSpeed.toFixed(0));
 }
 
-console.log("The mach speed of your object is: "); console.log(machSPD());
+console.log("The mach speed of your object is: "+machSPD()+".");
+
+
 
 
