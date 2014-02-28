@@ -1,3 +1,8 @@
-/**
- * Created by bangalorn on 2/27/14.
+/*
+ Corey McLauchlin
+ Functions_Personal
+ Feb. 27, 2014
+ calculates chances to get shiny pokemon
  */
+
+
