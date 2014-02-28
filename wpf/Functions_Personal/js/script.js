@@ -8,6 +8,7 @@
 var standard = standardC();
 // function
 function standardC(){
+    // the standard chance is displayed if this function is called
     console.log("You have the standard chance of 1 in 8,192 of obtaining a shiny pokemon.");
 }
 // prompt and variable considering wild caught pokemon
