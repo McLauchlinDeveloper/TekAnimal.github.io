@@ -21,13 +21,18 @@ var soundSPD = 343;
 
 // anonymous function calculating and returning velocity
 var velocity = function velocity(){
+    // using velocity formula
     vel = dist / time;
+
+    //returning velocity value for use in another function
     return(vel);
 }
 
 // function to calculate and clean up mach speed
 function machSPD(){
+    // declaration of mach speed variable
 var machSpeed = velocity() / soundSPD;
+    // returning mach speed variable
     return(machSpeed.toFixed(0));
 }
 // giving user the desire calculation result
