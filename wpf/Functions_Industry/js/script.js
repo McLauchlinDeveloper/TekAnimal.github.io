@@ -11,3 +11,4 @@ var den2 = prompt("What is the denominator of the second fraction?");
 (den1 == 0) ? console.log("The number should be greater than 0.") : console.log("Ok.");
 (num2 == 0) ? console.log("The number should be greater than 0.") : console.log("Ok.");
 (den2 == 0) ? console.log("The number should be greater than 0.") : console.log("Ok.");
+
